@@ -1,0 +1,14 @@
+def longestWordLength(string):
+     
+    length = 0
+     
+    # Finding longest word in sentence
+    for word in string.split():
+        if(len(word) > length):
+            length = len(word)
+     
+    return length
+ 
+# Driver Code
+string = "I am an intern at geeksforgeeks"
+print(longestWordLength(string))
