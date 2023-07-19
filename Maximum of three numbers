@@ -1,0 +1,9 @@
+a=float("num1","num2","num3")
+if(num1>num2)AND (num1>num3)
+print("num1",num1)
+elif(num2>num3)AND (num2>num 3)
+print("num2",num2)
+else
+print("num3",num3)
+
+
