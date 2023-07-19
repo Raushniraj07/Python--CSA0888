@@ -1,0 +1,7 @@
+num= foat(input("enter num")) 
+if (num > 70)
+  print ( num is +ve).
+elif (num <0)
+  print(num is -ve)
+else
+  Print(num is 0)
