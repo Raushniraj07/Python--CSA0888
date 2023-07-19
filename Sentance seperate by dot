@@ -1,0 +1,8 @@
+def separate_by_dot(sentence):
+    separated_parts = sentence.split('.')
+    return separated_parts
+
+# Example usage
+input_sentence = input("Enter a sentence: ")
+separated_parts = separate_by_dot(input_sentence)
+print("Separated parts:", separated_parts)
