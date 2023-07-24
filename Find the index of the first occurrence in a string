@@ -1,0 +1,19 @@
+# Quick examples of string.find()
+
+# Consider the string
+command = "visit sparkby tutorials. very very nice!"
+
+# Find 'i' from the start
+print("i occurrence - ",command.find("i"))
+
+# Find 'i' from the 6th position
+print("i occurrence - ",command.find("i",6))
+
+# Find 'i' from the 6th position to 40th position
+print("i occurrence - ",command.find("i",6,40))
+
+# Find 'sparkby'
+print("sparkby - ",command.find("sparkby"))
+
+# Find 'very' from 29th position
+print("very - ",command.find("very",29)
